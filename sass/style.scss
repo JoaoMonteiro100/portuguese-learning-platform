@@ -339,6 +339,10 @@ header .header-content .header-content-inner p {
 
 .btn-group-vertical {
     width:100%;
+
+    :first-of-type, :last-of-type {
+        border-radius: 0px;
+    }
 }
 
 .btn-default {
