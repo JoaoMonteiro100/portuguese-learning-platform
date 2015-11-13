@@ -2,14 +2,10 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
-function showHelp() {
-	document.getElementById('help').style.display='block';
-	document.getElementById('close-help-button').style.display='block';
-	document.getElementById('help-button').style.display='none';
-}
+$('#help').on('show.bs.modal', function () {
+   $('#content').addClass('blur');
+})
 
-function closeHelp() {
-	document.getElementById('help').style.display='none';
-	document.getElementById('close-help-button').style.display='none';
-	document.getElementById('help-button').style.display='block';
-}
+$('#help').on('hide.bs.modal', function () {
+   $('#content').removeClass('blur');
+})

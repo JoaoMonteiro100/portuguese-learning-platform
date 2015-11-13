@@ -490,19 +490,44 @@ body {
     webkit-tap-highlight-color: $dark-gray;
 }
 
-#help {
-    display: none;
-}
-
 #help-button {
     float:right;
     margin-right:5%;
-    margin-top: 20px;
 }
 
-#close-help-button {
-    float:right;
-    margin-right:5%;
-    margin-top: 20px;
-    display:none;
+body.modal-open #page-top{
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+  
+.modal-backdrop {background: #f7f7f7;}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.blur {
+    -webkit-filter: blur(5px) grayscale(50%);
+}
+
+.modal-footer {
+    text-align:center;
 }

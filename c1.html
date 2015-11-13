@@ -35,7 +35,26 @@
 </head>
 
 <body id="page-top">
-
+    <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="myModalLabel">Need some help?</h3>
+          </div>
+          <div class="modal-body">
+            <p>Hover over Portuguese words to see their translation.<br>Go over the materials at your own pace, and let your curiosity lead you to where you want to go. Feel free to skip chapters, skim through them, do questionnaires whenever or not at all. It's your learning experience after all!</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-default">About the platform</a>
+            <a href="#" class="btn btn-default">Contacts</a>
+            <a href="#" class="btn btn-default">See all modules</a>
+            <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -96,28 +115,14 @@
         </div>
     </section>
 
-    <button type="button" class="btn btn-primary active" id="help-button" onclick="showHelp()">?</button>
-    <button type="button" class="btn btn-primary active" id="close-help-button" onclick="closeHelp()">X</button>
-
-    <section class="bg-primary" id="help">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p>Hover over Portuguese words to see their translation.<br>Go over the materials at your own pace, and let your curiosity lead you to where you want to go. Feel free to skip chapters, skim through them, do questionnaires whenever or not at all. It's your learning experience after all!</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <button type="button" class="btn btn-primary active" id="help-button" data-toggle="modal" data-target="#help">?</button>
 
     <section style="padding-top:0;margin-top:0;">
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h3>Portuguese Hymn<br><a href="javascript:void(null)" data-toggle="tooltip" title="'The Portuguese'">"A Portuguesa"</a></h3>
-                    <audio controls>
-                        <source src="audio/A_Portuguesa.ogg" type="audio/ogg">
-                    Your browser does not support the audio element.
-                    </audio>
+                    <h3>Portugal</h3>
+                    <iframe width="100%" height="480px" src="https://www.youtube.com/embed/iYAXo1g4cNY" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-3">
                     <h3>Portuguese Hymn<br><a href="javascript:void(null)" data-toggle="tooltip" title="'The Portuguese'">"A Portuguesa"</a></h3>
@@ -130,7 +135,7 @@
         </div>
     </section>
 
-
+    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>

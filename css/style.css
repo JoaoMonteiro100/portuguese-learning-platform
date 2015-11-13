@@ -553,21 +553,52 @@ body {
 }
 
 /* line 493, ../sass/style.scss */
-#help {
-  display: none;
-}
-
-/* line 497, ../sass/style.scss */
 #help-button {
   float: right;
   margin-right: 5%;
-  margin-top: 20px;
 }
 
-/* line 503, ../sass/style.scss */
-#close-help-button {
-  float: right;
-  margin-right: 5%;
-  margin-top: 20px;
-  display: none;
+/* line 498, ../sass/style.scss */
+body.modal-open #page-top {
+  -webkit-filter: blur(7px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
+/* line 506, ../sass/style.scss */
+.modal-backdrop {
+  background: #f7f7f7;
+}
+
+/* line 508, ../sass/style.scss */
+.modal-dialog {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 514, ../sass/style.scss */
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 519, ../sass/style.scss */
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+/* line 527, ../sass/style.scss */
+.blur {
+  -webkit-filter: blur(5px) grayscale(50%);
+}
+
+/* line 531, ../sass/style.scss */
+.modal-footer {
+  text-align: center;
 }
