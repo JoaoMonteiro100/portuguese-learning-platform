@@ -73,7 +73,7 @@
 
     <img src="img/nav.jpg" class="img-responsive" alt="">
 
-   <section id="services" style="padding-top:50px;">
+   <section id="services" style="padding-top:50px;padding-bottom:50px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -86,11 +86,24 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="btn-group-horizontal" role="group">
-                        <button type="button" class="btn btn-default active">Chapter 1</button>
-                        <button type="button" class="btn btn-default">Chapter 2</button>
-                        <button type="button" class="btn btn-default">Chapter 3</button>
-                        <button type="button" class="btn btn-primary">Questionnaire</button>
+                        <button type="button" class="btn btn-default active">Chapter 1</button> >
+                        <button type="button" class="btn btn-default disabled">Chapter 2</button> >
+                        <button type="button" class="btn btn-default disabled">Chapter 3</button> >
+                        <button type="button" class="btn btn-primary disabled">Questionnaire</button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button type="button" class="btn btn-primary active" id="help-button" onclick="showHelp()">?</button>
+    <button type="button" class="btn btn-primary active" id="close-help-button" onclick="closeHelp()">X</button>
+
+    <section class="bg-primary" id="help">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>Hover over Portuguese words to see their translation.<br>Go over the materials at your own pace, and let your curiosity lead you to where you want to go. Feel free to skip chapters, skim through them, do questionnaires whenever or not at all. It's your learning experience after all!</p>
                 </div>
             </div>
         </div>
@@ -98,11 +111,22 @@
 
     <section style="padding-top:0;margin-top:0;">
         <div class="container">
-            <h3>Portuguese Hymn - <a href="javascript:void(null)" data-toggle="tooltip" title="'The Portuguese'">"A Portuguesa"</a></h3>
-            <audio controls>
-                <source src="audio/A_Portuguesa.ogg" type="audio/ogg">
-            Your browser does not support the audio element.
-            </audio>
+            <div class="row">
+                <div class="col-md-9">
+                    <h3>Portuguese Hymn<br><a href="javascript:void(null)" data-toggle="tooltip" title="'The Portuguese'">"A Portuguesa"</a></h3>
+                    <audio controls>
+                        <source src="audio/A_Portuguesa.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="col-md-3">
+                    <h3>Portuguese Hymn<br><a href="javascript:void(null)" data-toggle="tooltip" title="'The Portuguese'">"A Portuguesa"</a></h3>
+                    <audio controls>
+                        <source src="audio/A_Portuguesa.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
         </div>
     </section>
 

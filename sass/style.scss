@@ -489,3 +489,20 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: $dark-gray;
 }
+
+#help {
+    display: none;
+}
+
+#help-button {
+    float:right;
+    margin-right:5%;
+    margin-top: 20px;
+}
+
+#close-help-button {
+    float:right;
+    margin-right:5%;
+    margin-top: 20px;
+    display:none;
+}

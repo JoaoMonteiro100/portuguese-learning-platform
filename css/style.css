@@ -551,3 +551,23 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+/* line 493, ../sass/style.scss */
+#help {
+  display: none;
+}
+
+/* line 497, ../sass/style.scss */
+#help-button {
+  float: right;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+/* line 503, ../sass/style.scss */
+#close-help-button {
+  float: right;
+  margin-right: 5%;
+  margin-top: 20px;
+  display: none;
+}
