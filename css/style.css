@@ -578,9 +578,10 @@ body {
   -webkit-box-shadow: 0px 0px 26px -5px #2e2e2e;
   -moz-box-shadow: 0px 0px 26px -5px #2e2e2e;
   box-shadow: 0px 0px 26px -5px #2e2e2e;
+  z-index: 999;
 }
 
-/* line 516, ../sass/style.scss */
+/* line 517, ../sass/style.scss */
 body.modal-open #page-top {
   -webkit-filter: blur(7px);
   -moz-filter: blur(15px);
@@ -589,25 +590,25 @@ body.modal-open #page-top {
   filter: blur(15px);
 }
 
-/* line 524, ../sass/style.scss */
+/* line 525, ../sass/style.scss */
 .modal-backdrop {
   background: #f7f7f7;
 }
 
-/* line 526, ../sass/style.scss */
+/* line 527, ../sass/style.scss */
 .modal-dialog {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 532, ../sass/style.scss */
+/* line 533, ../sass/style.scss */
 .modal {
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 537, ../sass/style.scss */
+  /* line 538, ../sass/style.scss */
   .modal:before {
     display: inline-block;
     vertical-align: middle;
@@ -615,12 +616,12 @@ body.modal-open #page-top {
     height: 100%;
   }
 }
-/* line 545, ../sass/style.scss */
+/* line 546, ../sass/style.scss */
 .blur {
   -webkit-filter: blur(5px) grayscale(50%);
 }
 
-/* line 549, ../sass/style.scss */
+/* line 550, ../sass/style.scss */
 .modal-footer {
   text-align: center;
 }
