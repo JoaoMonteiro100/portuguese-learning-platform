@@ -625,3 +625,27 @@ body.modal-open #page-top {
 .modal-footer {
   text-align: center;
 }
+
+/* line 554, ../sass/style.scss */
+#end {
+  padding: 20px;
+  margin-bottom: 0;
+  padding-bottom: 1px;
+}
+/* line 559, ../sass/style.scss */
+#end img {
+  width: 100px;
+  height: auto;
+  float: left;
+}
+/* line 565, ../sass/style.scss */
+#end #links {
+  padding-left: 120px;
+}
+/* line 569, ../sass/style.scss */
+#end #last-line {
+  margin-top: -30px;
+  padding-left: 120px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

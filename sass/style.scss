@@ -550,3 +550,26 @@ body.modal-open #page-top{
 .modal-footer {
     text-align:center;
 }
+
+#end {
+    padding: 20px;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+
+    img {
+        width:100px;
+        height:auto;
+        float: left;
+    }
+
+    #links {
+        padding-left: 120px;
+    }
+
+    #last-line {
+        margin-top: -30px;
+        padding-left: 120px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
