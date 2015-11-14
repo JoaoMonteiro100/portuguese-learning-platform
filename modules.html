@@ -36,6 +36,27 @@
 
 <body id="page-top">
 
+    <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="myModalLabel">Need some help?</h3>
+          </div>
+          <div class="modal-body">
+            <p>Hover over <a href="javascript:void(null)" data-toggle="tooltip" title="Portuguese words">palavras portuguesas</a> to see their translation.<br>Go over the materials at your own pace, and let your curiosity lead you to where you want to go. Feel free to skip chapters, skim through them, do questionnaires whenever or not at all. It's your learning experience after all!</p>
+          </div>
+          <div class="modal-footer">
+            <a href="index.html#about" class="btn btn-default">About the platform</a>
+            <a href="#" class="btn btn-default">Contacts</a>
+            <a href="modules.html" class="btn btn-default">See all modules</a>
+            <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="content">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,10 +80,10 @@
                         <a class="page-scroll" href="#">Modules</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">About</a>
+                        <a class="page-scroll" href="index.html#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contacts</a>
+                        <a class="page-scroll" href="#">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -72,6 +93,8 @@
     </nav>
 
     <img src="img/nav.jpg" class="img-responsive" alt="">
+
+    <button type="button" class="btn btn-primary active" id="help-button" data-toggle="modal" data-target="#help">?</button>
 
     <section id="services" style="padding-top:50px;">
         <div class="container">
@@ -101,9 +124,9 @@
                     <p class="text-muted"><br>A short introduction on Portugal's heritage.</p>
                     <div class="btn-group-vertical" role="group">
                         <a class="btn btn-default" href="c1.html">1. Context</a>
-                        <a class="btn btn-default" href="#">2. History</a>
-                        <a class="btn btn-default" href="#">3. Culture</a>
-                        <a class="btn btn-primary" href="#">Questionnaire 1-3</a>
+                        <a class="btn btn-default disabled" href="#">2. History</a>
+                        <a class="btn btn-default disabled" href="#">3. Culture</a>
+                        <a class="btn btn-primary disabled" href="#">Questionnaire 1-3</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
@@ -122,10 +145,10 @@
                     </a>
                     <p class="text-muted"><br>How to pronunce the most common sounds.</p>
                     <div class="btn-group-vertical" role="group">
-                        <a class="btn btn-default" href="s1.html">Chapter 1</a>
-                        <a class="btn btn-default" href="#">Chapter 2</a>
-                        <a class="btn btn-default" href="#">Chapter 3</a>
-                        <a class="btn btn-primary" href="#">Questionnaire</a>
+                        <a class="btn btn-default" href="s1.html">1. Accentuation and vowels</a>
+                        <a class="btn btn-default disabled" href="#">2. Diphtongs</a>
+                        <a class="btn btn-default disabled" href="#">3. Consonants</a>
+                        <a class="btn btn-primary disabled" href="#">Questionnaire 1-3</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
@@ -144,14 +167,14 @@
                     </a>
                     <p class="text-muted"><br>Simple sentences and useful words.</p>
                     <div class="btn-group-vertical" role="group">
-                        <a class="btn btn-default" href="v1.html">Chapter 1</a>
-                        <a class="btn btn-default" href="v2.html">Chapter 2</a>
-                        <a class="btn btn-default" href="v3.html">Chapter 3</a>
-                        <a class="btn btn-primary" href="vq1.html">Questionnaire</a>
-                        <a class="btn btn-default" href="v4.html">Chapter 4</a>
-                        <a class="btn btn-default" href="v5.html">Chapter 5</a>
-                        <a class="btn btn-default" href="v6.html">Chapter 6</a>
-                        <a class="btn btn-primary" href="vq2.html">Questionnaire</a>
+                        <a class="btn btn-default disabled" href="v1.html">1. Nouns and verbs</a>
+                        <a class="btn btn-default disabled" href="v2.html">2. Basic syntax</a>
+                        <a class="btn btn-default disabled" href="v3.html">3. Simple sentences</a>
+                        <a class="btn btn-primary disabled" href="vq1.html">Questionnaire 1-3</a>
+                        <a class="btn btn-default disabled" href="v4.html">4. Word formation</a>
+                        <a class="btn btn-default disabled" href="v5.html">5. Adjectives and adverbs</a>
+                        <a class="btn btn-default disabled" href="v6.html">6. Verb conjugation</a>
+                        <a class="btn btn-primary disabled" href="vq2.html">Questionnaire 4-6</a>
                     </div>
                 </div>
             </div>
@@ -187,6 +210,19 @@
         </div>
     </section>
 -->
+
+    <section id="end" class="bg-dark">
+        <img src="img/logo-white.png" />
+        <p id="links"><small><a href="index.html">Homepage</a> | 
+            <a href="modules.html">Modules</a> | 
+            <a href="#">Contacts</a> | 
+            <a href="#">Sitemap</a></small>
+        <div id="last-line">
+            <br><p class="text-muted"><small>Designed and developed by <a target="_blank" href="http://www.joaommonteiro.pt">João Monteiro</a>.</small></p>
+        </div>
+    </section>
+    </div>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
