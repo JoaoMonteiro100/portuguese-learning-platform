@@ -503,9 +503,14 @@ body {
 }
 
 #help-button {
-    float:right;
-    margin-right:5%;
-    margin-top: -50px;
+    float:left;
+    position: fixed;
+    top: 250px;
+    border-radius: 0;
+    font-size: 1.8em;
+    -webkit-box-shadow: 0px 0px 26px -5px rgba(46,46,46,1);
+    -moz-box-shadow: 0px 0px 26px -5px rgba(46,46,46,1);
+    box-shadow: 0px 0px 26px -5px rgba(46,46,46,1);
 }
 
 body.modal-open #page-top{
