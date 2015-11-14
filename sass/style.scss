@@ -5,6 +5,10 @@ $light-blue: #B1BEC2;
 $medium-blue: #9DB2B4;
 $dark-blue: #709494;
 $darkest-blue: #2C3F3C;
+$red: #b30000;
+$dark-red: #1a0000;
+$green: #228F00;
+$dark-green: #0c3300;
 
 html,
 body {
@@ -571,5 +575,31 @@ body.modal-open #page-top{
         padding-left: 120px;
         margin-bottom: 0;
         padding-bottom: 0;
+    }
+}
+
+.syllable {
+    background-color: $light-blue;
+    padding: 5px;
+    display: inline;
+    color: $darkest-blue;
+    font-size: 1.2em;
+}
+
+.red-cell {
+    color: $dark-red;
+    background-color: $red;
+
+    &:link, &:visited, &:hover, &:active {
+        color: $dark-red;
+    }
+}
+
+.green-cell {
+    color: $dark-green;
+    background-color: $green;
+
+    &:link, &:visited, &:hover, &:active {
+        color: $dark-green;
     }
 }

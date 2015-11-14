@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <button type="button" class="btn btn-primary active" id="help-button" data-toggle="modal" data-target="#help">?</button>
+    <button type="button" class="btn btn-primary active" id="help-button" data-toggle="modal" data-target="#help" title="Help">?</button>
 
     <section style="padding:0;margin:0;padding-bottom:20px" class="bg-dark">
         <div class="container">
@@ -155,8 +155,38 @@
             <div class="row text-center">
                 <h3><a href="javascript:void(null)" data-toggle="tooltip" title="Exercises">Exercícios</a></h3>
                 <p>Choose the accentuated syllable for each word</p>
-                <div class="col-md-2">
-
+                <div class="col-md-2" data-toggle="tooltip" title="Portuguese (male singular)">
+                    <a href="javascript:void(null)" class="syllable" id="portugues-wrong-1" onclick="portuguesWrong1()">Por</a>
+                    <a href="javascript:void(null)" class="syllable" id="portugues-wrong-2" onclick="portuguesWrong2()">tu</a>
+                    <a href="javascript:void(null)" class="syllable" id="portugues-right" onclick="portuguesRight()">guês</a>
+                </div>
+                <div class="col-md-2" data-toggle="tooltip" title="Lisbon">
+                    <a href="javascript:void(null)" class="syllable" id="lisboa-wrong-1" onclick="lisboaWrong1()">Lis</a>
+                    <a href="javascript:void(null)" class="syllable" id="lisboa-right" onclick="lisboaRight()">bo</a>
+                    <a href="javascript:void(null)" class="syllable" id="lisboa-wrong-2" onclick="lisboaWrong2()">a</a>
+                </div>
+                <div class="col-md-2" data-toggle="tooltip" title="Airplane">
+                    <a href="javascript:void(null)" class="syllable" id="aviao-wrong-1" onclick="aviaoWrong1()">A</a>
+                    <a href="javascript:void(null)" class="syllable" id="aviao-wrong-2" onclick="aviaoWrong2()">vi</a>
+                    <a href="javascript:void(null)" class="syllable" id="aviao-right" onclick="aviaoRight()">ão</a>
+                </div>
+                <div class="col-md-2" data-toggle="tooltip" title="Traffic light">
+                    <a href="javascript:void(null)" class="syllable" id="semaforo-wrong-1" onclick="semaforoWrong1()">Se</a>
+                    <a href="javascript:void(null)" class="syllable" id="semaforo-right" onclick="semaforoRight()">má</a>
+                    <a href="javascript:void(null)" class="syllable" id="semaforo-wrong-2" onclick="semaforoWrong2()">fo</a>
+                    <a href="javascript:void(null)" class="syllable" id="semaforo-wrong-3" onclick="semaforoWrong3()">ro</a>
+                </div>
+                <div class="col-md-4" data-toggle="tooltip" title="Otorhinolaringologist">
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-wrong-1" onclick="otorrinoWrong1()">O</a>
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-wrong-2" onclick="otorrinoWrong2()">tor</a>
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-wrong-3" onclick="otorrinoWrong3()">ri</a>
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-wrong-4" onclick="otorrinoWrong4()">no</a>
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-wrong-5" onclick="otorrinoWrong5()">la</a>
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-wrong-6" onclick="otorrinoWrong6()">rin</a>
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-wrong-7" onclick="otorrinoWrong7()">go</a>
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-wrong-8" onclick="otorrinoWrong8()">lo</a>
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-right" onclick="otorrinoRight()">gis</a>
+                    <a href="javascript:void(null)" class="syllable" id="otorrino-wrong-9" onclick="otorrinoWrong9()">ta</a>
                 </div>
             </div>
         </div>
