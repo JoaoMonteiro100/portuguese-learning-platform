@@ -56,11 +56,23 @@ p {
 
 .bg-primary {
     background-color: $medium-blue;
+    a {
+        color: $darkest-blue;
+        &:hover {
+            color: $dark-gray;
+        }
+    }
 }
 
 .bg-dark {
     color: $light-gray;
     background-color: $dark-gray;
+    a {
+        color: $medium-blue;
+        &:hover {
+            color: $dark-blue;
+        }
+    }
 }
 
 .text-faded {
@@ -493,6 +505,7 @@ body {
 #help-button {
     float:right;
     margin-right:5%;
+    margin-top: -50px;
 }
 
 body.modal-open #page-top{
