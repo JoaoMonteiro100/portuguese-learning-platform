@@ -660,46 +660,67 @@ body.modal-open #page-top {
 }
 
 /* line 589, ../sass/style.scss */
+.letter {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 594, ../sass/style.scss */
 .red-cell {
   color: #1a0000;
   background-color: #b30000;
 }
-/* line 593, ../sass/style.scss */
+/* line 598, ../sass/style.scss */
 .red-cell:link, .red-cell:visited, .red-cell:hover, .red-cell:active {
   color: #1a0000;
 }
 
-/* line 598, ../sass/style.scss */
+/* line 603, ../sass/style.scss */
 .green-cell {
   color: #0c3300;
   background-color: #228f00;
 }
-/* line 602, ../sass/style.scss */
+/* line 607, ../sass/style.scss */
 .green-cell:link, .green-cell:visited, .green-cell:hover, .green-cell:active {
   color: #0c3300;
 }
 
-/* line 607, ../sass/style.scss */
+/* line 612, ../sass/style.scss */
+.emphasized-cell {
+  color: #222222;
+  background-color: #709494;
+}
+/* line 616, ../sass/style.scss */
+.emphasized-cell:link, .emphasized-cell:visited, .emphasized-cell:hover, .emphasized-cell:active {
+  color: #222222;
+}
+
+/* line 621, ../sass/style.scss */
 .tab-content {
   text-align: left;
 }
 
-/* line 611, ../sass/style.scss */
+/* line 625, ../sass/style.scss */
 .sound {
   font-size: 5em;
   text-align: center;
   line-height: 1.1em;
   padding-top: 30px;
 }
-/* line 617, ../sass/style.scss */
+/* line 631, ../sass/style.scss */
 .sound audio {
   padding: 0;
   margin: 0;
 }
 
-/* line 623, ../sass/style.scss */
+/* line 637, ../sass/style.scss */
 .explanation {
   padding: 30px;
   padding-top: 40px;
   vertical-align: middle;
+}
+
+/* line 643, ../sass/style.scss */
+.exercicio-vogais {
+  display: none;
 }

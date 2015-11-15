@@ -586,6 +586,11 @@ body.modal-open #page-top{
     font-size: 1.2em;
 }
 
+.letter {
+    padding-left:10px;
+    padding-right:10px;
+}
+
 .red-cell {
     color: $dark-red;
     background-color: $red;
@@ -601,6 +606,15 @@ body.modal-open #page-top{
 
     &:link, &:visited, &:hover, &:active {
         color: $dark-green;
+    }
+}
+
+.emphasized-cell {
+    color: $dark-gray;
+    background-color: $dark-blue;
+
+    &:link, &:visited, &:hover, &:active {
+        color: $dark-gray;
     }
 }
 
@@ -624,4 +638,8 @@ body.modal-open #page-top{
     padding: 30px;
     padding-top: 40px;
     vertical-align: middle;
+}
+
+.exercicio-vogais {
+    display: none;
 }

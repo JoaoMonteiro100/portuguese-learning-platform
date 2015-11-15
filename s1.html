@@ -127,7 +127,7 @@
                     <ol>
                         <br><li>There is an accentuation sign like ´, `, ^ or ~ (and then, the syllable where it's located is the one accentuated).<br>
                             Examples: <a href="javascript:void(null)" data-toggle="tooltip" title="coffee">ca<u>fé</u></a>, <a href="javascript:void(null)" data-toggle="tooltip" title="tea"><u>chá</u></a>, <a href="javascript:void(null)" data-toggle="tooltip" title="lamp"><u>lâm</u>pada</a>, <a href="javascript:void(null)" data-toggle="tooltip" title="warehouse">arma<u>zém</u></a>, <a href="javascript:void(null)" data-toggle="tooltip" title="heart">cora<u>ção</u></a>.</li>
-                        <br><li>The word ends in -l, -r, -u or -i and has no accentuation signs (the accentuation is then on the last syllable).<br>
+                        <br><li>The word ends in -l, -r, -z, -u or -i and has no accentuation signs (the accentuation is then on the last syllable).<br>
                             Examples: <a href="javascript:void(null)" data-toggle="tooltip" title="lighthouse">fa<u>rol</u></a>, <a href="javascript:void(null)" data-toggle="tooltip" title="to sing">can<u>tar</u></a>, <a href="javascript:void(null)" data-toggle="tooltip" title="museum">mu<u>seu</u></a>, <a href="javascript:void(null)" data-toggle="tooltip" title="I will research">pesquisa<u>rei</u></a>.</li>
                         <br><li>It's a monosyllabic word.<br>
                             Examples: <a href="javascript:void(null)" data-toggle="tooltip" title="mine"><u>meu</u></a>, <a href="javascript:void(null)" data-toggle="tooltip" title="father"><u>pai</u></a>, <a href="javascript:void(null)" data-toggle="tooltip" title="who"><u>quem</u></a>.</li>
@@ -154,7 +154,7 @@
         <div class="container">
             <div class="row text-center">
                 <h3><a href="javascript:void(null)" data-toggle="tooltip" title="Exercises">Exercícios</a></h3>
-                <p>Choose the accentuated syllable for each word</p>
+                <p>Choose the accentuated syllable for each word.</p>
                 <div class="col-md-2" data-toggle="tooltip" title="Portuguese (male singular)">
                     <a href="javascript:void(null)" class="syllable" id="portugues-wrong-1" onclick="portuguesWrong1()">Por</a>
                     <a href="javascript:void(null)" class="syllable" id="portugues-wrong-2" onclick="portuguesWrong2()">tu</a>
@@ -261,6 +261,50 @@
                     <div role="tabpanel" class="tab-pane fade" id="vowelI">I</div>
                     <div role="tabpanel" class="tab-pane fade" id="vowelO">O</div>
                     <div role="tabpanel" class="tab-pane fade" id="vowelU">U</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary" style="padding-top:20px;padding-bottom:50px">
+        <div class="container">
+            <div class="row text-center">
+                <h3><a href="javascript:void(null)" data-toggle="tooltip" title="Exercises">Exercícios</a></h3>
+                <p>Which words better describe you? [ONLY 'INOVADOR' IS WORKING]</p>
+                <div class="col-md-2" data-toggle="tooltip" title="Innovative">
+                    <a href="javascript:void(null)" class="syllable" id="inovador" onclick="selectInovador()">Inovador</a>
+                </div>
+                <div class="col-md-2" data-toggle="tooltip" title="Calm">
+                    <a href="javascript:void(null)" class="syllable" id="calmo" onclick="selectCalmo()">Calmo</a>
+                </div>
+                <div class="col-md-2" data-toggle="tooltip" title="Confident">
+                    <a href="javascript:void(null)" class="syllable" id="confiante" onclick="selectConfiante()">Confiante</a>
+                </div>
+                <div class="col-md-2" data-toggle="tooltip" title="Imaginative">
+                    <a href="javascript:void(null)" class="syllable" id="imaginativo" onclick="selectImaginativo()">Imaginativo</a>
+                </div>
+                <div class="col-md-2" data-toggle="tooltip" title="Prententious">
+                    <a href="javascript:void(null)" class="syllable" id="pretensioso" onclick="selectPretensioso()">Pretensioso</a>
+                </div>
+                <div class="col-md-2" data-toggle="tooltip" title="Obstinate">
+                    <a href="javascript:void(null)" class="syllable" id="obstinado" onclick="selectObstinado()">Obstinado</a>
+                </div>
+
+                <p><br><br>For each one, select the sounds that correspond to the emphasized letters.</p>
+
+                <div class="col-md-12 exercicio-vogais" id="ex-inovador" style="margin:0;padding:0;">
+                    <div class="col-md-2" data-toggle="tooltip" title="Innovative">
+                        <span class="syllable">Inov<strong>a</strong>dor</span>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="javascript:void(null)" class="syllable letter" id="inovador-1" onclick="selectInovador1()">a</a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="javascript:void(null)" class="syllable letter" id="inovador-2" onclick="selectInovador2()">ɐ̃</a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="javascript:void(null)" class="syllable letter" id="inovador-3" onclick="selectInovador3()">ə</a>
+                    </div>
                 </div>
             </div>
         </div>

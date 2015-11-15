@@ -155,3 +155,20 @@ $('#vogais a[href="#vogalE"]').tab('show');
 $('#vogais a[href="#vogalI"]').tab('show');
 $('#vogais a[href="#vogalO"]').tab('show');
 $('#vogais a[href="#vogalU"]').tab('show');
+
+function selectInovador() {
+	$('#inovador').addClass('emphasized-cell');
+	document.getElementById('ex-inovador').style.display='block';
+};
+
+function selectInovador1() {
+	$('#inovador-1').addClass('red-cell');
+};
+
+function selectInovador2() {
+	$('#inovador-2').addClass('red-cell');
+};
+
+function selectInovador3() {
+	$('#inovador-3').addClass('green-cell');
+};
