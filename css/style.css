@@ -699,5 +699,7 @@ body.modal-open #page-top {
 
 /* line 623, ../sass/style.scss */
 .explanation {
+  padding: 30px;
+  padding-top: 40px;
   vertical-align: middle;
 }
