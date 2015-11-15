@@ -149,3 +149,9 @@ function otorrinoWrong8() {
 function otorrinoWrong9() {
 	$('#otorrino-wrong-9').addClass('red-cell');
 };
+
+$('#vogais a[href="#vogalA"]').tab('show');
+$('#vogais a[href="#vogalE"]').tab('show');
+$('#vogais a[href="#vogalI"]').tab('show');
+$('#vogais a[href="#vogalO"]').tab('show');
+$('#vogais a[href="#vogalU"]').tab('show');

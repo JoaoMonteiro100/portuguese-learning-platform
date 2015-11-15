@@ -678,3 +678,26 @@ body.modal-open #page-top {
 .green-cell:link, .green-cell:visited, .green-cell:hover, .green-cell:active {
   color: #0c3300;
 }
+
+/* line 607, ../sass/style.scss */
+.tab-content {
+  text-align: left;
+}
+
+/* line 611, ../sass/style.scss */
+.sound {
+  font-size: 5em;
+  text-align: center;
+  line-height: 1.1em;
+  padding-top: 30px;
+}
+/* line 617, ../sass/style.scss */
+.sound audio {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 623, ../sass/style.scss */
+.explanation {
+  vertical-align: middle;
+}

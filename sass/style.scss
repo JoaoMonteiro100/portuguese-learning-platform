@@ -603,3 +603,23 @@ body.modal-open #page-top{
         color: $dark-green;
     }
 }
+
+.tab-content {
+    text-align: left;
+}
+
+.sound {
+    font-size: 5em;
+    text-align: center;
+    line-height: 1.1em;
+    padding-top: 30px;
+
+    audio {
+        padding:0;
+        margin:0;
+    }
+}
+
+.explanation {
+    vertical-align: middle;
+}
