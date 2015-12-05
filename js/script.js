@@ -2,11 +2,23 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 });
 
+$(window).load(function(){
+        $('#helpAuto').modal('show');
+    });
+
 $('#help').on('show.bs.modal', function () {
    $('#content').addClass('blur');
 });
 
 $('#help').on('hide.bs.modal', function () {
+   $('#content').removeClass('blur');
+});
+
+$('#helpAuto').on('show.bs.modal', function () {
+   $('#content').addClass('blur');
+});
+
+$('#helpAuto').on('hide.bs.modal', function () {
    $('#content').removeClass('blur');
 });
 
