@@ -724,3 +724,33 @@ body.modal-open #page-top {
 .exercicio-vogais {
   display: none;
 }
+
+/* line 647, ../sass/style.scss */
+.nav-tabs > li, .nav-pills > li {
+  float: none;
+  display: inline-block;
+  *display: inline;
+  /* ie7 fix */
+  zoom: 1;
+  /* hasLayout ie7 trigger */
+}
+
+/* line 654, ../sass/style.scss */
+.nav-tabs, .nav-pills {
+  text-align: center;
+}
+
+/* line 658, ../sass/style.scss */
+.subtitle {
+  color: #2c3f3c;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: -15px;
+}
+
+/* line 665, ../sass/style.scss */
+.subtitle-child {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+}
