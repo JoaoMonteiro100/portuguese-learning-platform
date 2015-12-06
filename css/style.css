@@ -657,75 +657,76 @@ body.modal-open #page-top {
   display: inline;
   color: #2c3f3c;
   font-size: 1.2em;
+  cursor: pointer;
 }
 
-/* line 589, ../sass/style.scss */
+/* line 590, ../sass/style.scss */
 .letter {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 594, ../sass/style.scss */
+/* line 595, ../sass/style.scss */
 .red-cell {
   color: #1a0000;
   background-color: #b30000;
 }
-/* line 598, ../sass/style.scss */
+/* line 599, ../sass/style.scss */
 .red-cell:link, .red-cell:visited, .red-cell:hover, .red-cell:active {
   color: #1a0000;
 }
 
-/* line 603, ../sass/style.scss */
+/* line 604, ../sass/style.scss */
 .green-cell {
   color: #0c3300;
   background-color: #228f00;
 }
-/* line 607, ../sass/style.scss */
+/* line 608, ../sass/style.scss */
 .green-cell:link, .green-cell:visited, .green-cell:hover, .green-cell:active {
   color: #0c3300;
 }
 
-/* line 612, ../sass/style.scss */
+/* line 613, ../sass/style.scss */
 .emphasized-cell {
   color: #222222;
   background-color: #709494;
 }
-/* line 616, ../sass/style.scss */
+/* line 617, ../sass/style.scss */
 .emphasized-cell:link, .emphasized-cell:visited, .emphasized-cell:hover, .emphasized-cell:active {
   color: #222222;
 }
 
-/* line 621, ../sass/style.scss */
+/* line 622, ../sass/style.scss */
 .tab-content {
   text-align: left;
 }
 
-/* line 625, ../sass/style.scss */
+/* line 626, ../sass/style.scss */
 .sound {
   font-size: 5em;
   text-align: center;
   line-height: 1.1em;
   padding-top: 30px;
 }
-/* line 631, ../sass/style.scss */
+/* line 632, ../sass/style.scss */
 .sound audio {
   padding: 0;
   margin: 0;
 }
 
-/* line 637, ../sass/style.scss */
+/* line 638, ../sass/style.scss */
 .explanation {
   padding: 30px;
   padding-top: 40px;
   vertical-align: middle;
 }
 
-/* line 643, ../sass/style.scss */
+/* line 644, ../sass/style.scss */
 .exercicio-vogais {
   display: none;
 }
 
-/* line 647, ../sass/style.scss */
+/* line 648, ../sass/style.scss */
 .nav-tabs > li, .nav-pills > li {
   float: none;
   display: inline-block;
@@ -735,12 +736,12 @@ body.modal-open #page-top {
   /* hasLayout ie7 trigger */
 }
 
-/* line 654, ../sass/style.scss */
+/* line 655, ../sass/style.scss */
 .nav-tabs, .nav-pills {
   text-align: center;
 }
 
-/* line 658, ../sass/style.scss */
+/* line 659, ../sass/style.scss */
 .subtitle {
   color: #2c3f3c;
   text-align: center;
@@ -748,29 +749,150 @@ body.modal-open #page-top {
   margin-bottom: -15px;
 }
 
-/* line 665, ../sass/style.scss */
+/* line 666, ../sass/style.scss */
 .subtitle-child {
   text-align: center;
   padding-top: 0;
   margin-top: 0;
 }
 
-/* line 671, ../sass/style.scss */
+/* line 672, ../sass/style.scss */
+.drop-box {
+  display: inline-block;
+  width: 100%;
+  height: 120px;
+  border: solid;
+  border-color: #b1bec2;
+  border-radius: 3px;
+  float: right;
+  margin: -2px;
+  padding: 0;
+}
+/* line 683, ../sass/style.scss */
+.drop-box .syllable {
+  color: #1a0000;
+  background-color: #b30000;
+  margin: 0;
+}
+/* line 688, ../sass/style.scss */
+.drop-box .syllable:link, .drop-box .syllable:visited, .drop-box .syllable:hover, .drop-box .syllable:active {
+  color: #1a0000;
+}
+
+/* line 694, ../sass/style.scss */
 .matching-figure {
   display: inline-block;
-  max-height: 120px;
+  height: 120px;
   max-width: 50%;
   margin: 0;
   padding: 0;
+  opacity: 1;
 }
 
-/* line 679, ../sass/style.scss */
-.drop-box {
+/* line 703, ../sass/style.scss */
+.animal-name {
   display: inline-block;
-  width: 100px;
-  height: 50px;
-  border-color: #eee7ec;
-  background-color: #b1bec2;
-  float: right;
-  top: 50%;
+  margin: 30px;
+  text-align: center;
+  float: center;
+}
+
+/* line 711, ../sass/style.scss */
+#dog-box #cao {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 715, ../sass/style.scss */
+#dog-box #cao:link, #dog-box #cao:visited, #dog-box #cao:hover, #dog-box #cao:active {
+  color: #0c3300;
+}
+
+/* line 722, ../sass/style.scss */
+#cat-box #gato {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 726, ../sass/style.scss */
+#cat-box #gato:link, #cat-box #gato:visited, #cat-box #gato:hover, #cat-box #gato:active {
+  color: #0c3300;
+}
+
+/* line 733, ../sass/style.scss */
+#sheep-box #ovelha {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 737, ../sass/style.scss */
+#sheep-box #ovelha:link, #sheep-box #ovelha:visited, #sheep-box #ovelha:hover, #sheep-box #ovelha:active {
+  color: #0c3300;
+}
+
+/* line 744, ../sass/style.scss */
+#mouse-box #rato {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 748, ../sass/style.scss */
+#mouse-box #rato:link, #mouse-box #rato:visited, #mouse-box #rato:hover, #mouse-box #rato:active {
+  color: #0c3300;
+}
+
+/* line 755, ../sass/style.scss */
+#horse-box #cavalo {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 759, ../sass/style.scss */
+#horse-box #cavalo:link, #horse-box #cavalo:visited, #horse-box #cavalo:hover, #horse-box #cavalo:active {
+  color: #0c3300;
+}
+
+/* line 766, ../sass/style.scss */
+#rabbit-box #coelho {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 770, ../sass/style.scss */
+#rabbit-box #coelho:link, #rabbit-box #coelho:visited, #rabbit-box #coelho:hover, #rabbit-box #coelho:active {
+  color: #0c3300;
+}
+
+/* line 777, ../sass/style.scss */
+#pig-box #porco {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 781, ../sass/style.scss */
+#pig-box #porco:link, #pig-box #porco:visited, #pig-box #porco:hover, #pig-box #porco:active {
+  color: #0c3300;
+}
+
+/* line 788, ../sass/style.scss */
+#cow-box #vaca {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 792, ../sass/style.scss */
+#cow-box #vaca:link, #cow-box #vaca:visited, #cow-box #vaca:hover, #cow-box #vaca:active {
+  color: #0c3300;
+}
+
+/* line 799, ../sass/style.scss */
+#turtle-box #tartaruga {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 803, ../sass/style.scss */
+#turtle-box #tartaruga:link, #turtle-box #tartaruga:visited, #turtle-box #tartaruga:hover, #turtle-box #tartaruga:active {
+  color: #0c3300;
+}
+
+/* line 810, ../sass/style.scss */
+#chicken-box #galinha {
+  color: #0c3300;
+  background-color: #228f00;
+}
+/* line 814, ../sass/style.scss */
+#chicken-box #galinha:link, #chicken-box #galinha:visited, #chicken-box #galinha:hover, #chicken-box #galinha:active {
+  color: #0c3300;
 }

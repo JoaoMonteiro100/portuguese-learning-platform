@@ -2,6 +2,20 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 });
 
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+
 $(window).load(function(){
         $('#helpAuto').modal('show');
     });
@@ -184,13 +198,3 @@ function selectInovador2() {
 function selectInovador3() {
 	$('#inovador-3').addClass('green-cell');
 };
-
-function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-}
-
-function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
-}

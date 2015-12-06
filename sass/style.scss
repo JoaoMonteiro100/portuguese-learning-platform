@@ -584,6 +584,7 @@ body.modal-open #page-top{
     display: inline;
     color: $darkest-blue;
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 .letter {
@@ -668,20 +669,150 @@ body.modal-open #page-top{
     margin-top: 0;
 }
 
+.drop-box {
+    display:inline-block;
+    width:100%;
+    height:120px;
+    border:solid;
+    border-color: $light-blue;
+    border-radius: 3px;
+    float:right;
+    margin:-2px;
+    padding:0;
+
+    .syllable {
+        color: $dark-red;
+        background-color: $red;
+        margin:0;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-red;
+        }
+    }
+}
+
 .matching-figure {
     display:inline-block;
-    max-height: 120px;
+    height: 120px;
     max-width: 50%;
     margin:0;
     padding:0;
+    opacity:1;
 }
 
-.drop-box {
+.animal-name {
     display:inline-block;
-    width:100px;
-    height:50px;
-    border-color: $light-gray;
-    background-color: $light-blue;
-    float:right;
-    top:50%;
+    margin:30px;
+    text-align: center;
+    float:center;
+}
+
+#dog-box{
+    #cao {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
+}
+
+#cat-box{
+    #gato {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
+}
+
+#sheep-box{
+    #ovelha {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
+}
+
+#mouse-box{
+    #rato {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
+}
+
+#horse-box{
+    #cavalo {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
+}
+
+#rabbit-box{
+    #coelho {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
+}
+
+#pig-box{
+    #porco {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
+}
+
+#cow-box{
+    #vaca {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
+}
+
+#turtle-box{
+    #tartaruga {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
+}
+
+#chicken-box{
+    #galinha {
+        color: $dark-green;
+        background-color: $green;
+
+        &:link, &:visited, &:hover, &:active {
+            color: $dark-green;
+        }
+    }
 }

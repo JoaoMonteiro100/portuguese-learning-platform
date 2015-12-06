@@ -126,25 +126,30 @@
                     <h2>Match the names of the animals with their photos</a></h2>
                     <p class="text-muted">In Portuguese, animal names can get a bit complicated! It's common for an animal to be called different things according to its gender and age. Here, however, we'll just look at the most used names, usually male, singular and referring to adult animals. The only exceptions are the ones that clearly don't fit those characteristics (ex: cow).<br>Drag the names of the animals in Portuguese and drop them on top of the respective image; if it's correct, it'll stay there. Good luck!</p>
                     <div class="col-md-3">
-                        <img class="matching-figure" src="img/animals/dog.png" />
-                        <span id="dog-box" class="drop-box"></span>
-                        <img class="matching-figure" src="img/animals/cat.png" />
-                        <span id="cat-box" class="drop-box"></span>
-                        <img class="matching-figure" src="img/animals/rabbit.png" />
-                        <span id="rabbit-box" class="drop-box"></span>
-                        <img class="matching-figure" src="img/animals/pig.png" />
-                        <span id="pig-box" class="drop-box"></span>
-                        <img class="matching-figure" src="img/animals/horse.png" />
-                        <span id="horse-box" class="drop-box"></span>
+                        <span id="dog-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/dog.png" draggable="false" data-toggle="tooltip" data-placement="left" title="Dog" /></span>
+                        <span id="cat-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/cat.png" draggable="false" data-toggle="tooltip" data-placement="left" title="Cat" /></span>
+                        <span id="rabbit-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/rabbit.png" draggable="false" data-toggle="tooltip" data-placement="left" title="Rabbit" /></span>
+                        <span id="pig-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/pig.png" draggable="false" data-toggle="tooltip" data-placement="left" title="Pig" /></span>
+                        <span id="horse-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/horse.png" draggable="false" data-toggle="tooltip" data-placement="left" title="Horse" /></span>
+                    </div>
+                    <div class="col-md-6">
+                        <span id="ovelha" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Ovelha</span>
+                        <span id="gato" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Gato</span>
+                        <span id="porco" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Porco</span>
+                        <span id="coelho" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Coelho</span>
+                        <span id="galinha" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Galinha</span>
+                        <span id="vaca" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Vaca</span>
+                        <span id="cao" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Cão</span>
+                        <span id="rato" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Rato</span>
+                        <span id="cavalo" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Cavalo</span>
+                        <span id="tartaruga" class="syllable animal-name" draggable="true" ondragstart="drag(event)">Tartaruga</span>
                     </div>
                     <div class="col-md-3">
-                        Abc
-                    </div>
-                    <div class="col-md-3">
-                        Abc
-                    </div>
-                    <div class="col-md-3">
-                        Abc
+                        <span id="chicken-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/chicken.png" draggable="false" data-toggle="tooltip" data-placement="right" title="Chicken" style="float:right" /></span>
+                        <span id="turtle-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/turtle.png" draggable="false" data-toggle="tooltip" data-placement="right" title="Turtle" style="float:right" /></span>
+                        <span id="sheep-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/sheep.png" draggable="false" data-toggle="tooltip" data-placement="right" title="Sheep" style="float:right" /></span>
+                        <span id="cow-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/cow.png" draggable="false" data-toggle="tooltip" data-placement="right" title="Cow" style="float:right" /></span>
+                        <span id="mouse-box" class="drop-box" ondrop="drop(event)" ondragover="allowDrop(event)"><img class="matching-figure" src="img/animals/mouse.png" draggable="false" data-toggle="tooltip" data-placement="right" title="Mouse" style="float:right" /></span>
                     </div>
                 </div>
             </div>
